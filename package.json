@@ -1,0 +1,40 @@
+{
+  "name": "koala-viewer",
+  "displayName": "Koala Painter Viewer",
+  "description": "Viewer for Commodore 64 KoalaPainter .kla files",
+  "version": "1.0.0",
+  "publisher": "Felsir",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "koala.viewer",
+        "displayName": "Koala Viewer",
+        "selector": [
+          {
+            "filenamePattern": "*.kla"
+          },
+          {
+            "filenamePattern": "*.koa"
+          }
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.0.0"
+  }
+}
