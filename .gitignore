@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Compiled extension output
+out/
+
+# Packaged extension
+*.vsix
+
+# VS Code test environment
+.vscode-test/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
