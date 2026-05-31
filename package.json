@@ -2,7 +2,7 @@
   "name": "koala-viewer",
   "displayName": "Koala Painter Viewer",
   "description": "Viewer for Commodore 64 KoalaPainter .kla files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Felsir",
   "icon": "icon.png",
   "repository": {
