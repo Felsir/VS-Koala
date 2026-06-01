@@ -13,17 +13,16 @@
     "vscode": "^1.90.0"
   },
   "categories": [
-      "Other"
+    "Other"
   ],
-
   "keywords": [
-      "c64",
-      "commodore",
-      "koala",
-      "koalapainter",
-      "retro",
-      "pixelart",
-      "graphics"
+    "c64",
+    "commodore",
+    "koala",
+    "koalapainter",
+    "retro",
+    "pixelart",
+    "graphics"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -43,10 +42,10 @@
     ]
   },
   "scripts": {
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./",
-        "package": "vsce package"
-    },
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
   "devDependencies": {
     "@types/node": "^20.0.0",
     "@types/vscode": "^1.90.0",
